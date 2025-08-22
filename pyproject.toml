@@ -1,15 +1,35 @@
 [project]
 name = "primer-studio"
 version = "0.1.0"
-description = "Add your description here"
+description = "A batch primer design tool for PCR applications"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "biopython>=1.85",
     "primer3-py>=2.2.0",
+    "pydantic>=2.0.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0",
 ]
 
+[project.scripts]
+primer-designer = "primer_designer.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/primer_designer"]
+
+[tool.uv]
+package = true
 
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 default = true
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
