@@ -1,5 +1,12 @@
 # Primer Studio
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+[![GitHub issues](https://img.shields.io/github/issues/Hunter-Leo/primer-studio)](https://github.com/Hunter-Leo/primer-studio/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Hunter-Leo/primer-studio)](https://github.com/Hunter-Leo/primer-studio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Hunter-Leo/primer-studio)](https://github.com/Hunter-Leo/primer-studio/network)
+
 A batch primer design tool for PCR applications that supports automatic primer design for multiple DNA sequences with configurable parameters and high-performance processing.
 
 ## Features
@@ -472,7 +479,7 @@ src/primer_designer/
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License v2.0 (GPL-2.0) - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -480,3 +487,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **BioPython**: Sequence analysis tools
 - **Pydantic**: Data validation framework
 - **Typer**: Modern CLI framework
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Hunter-Leo/primer-studio&type=Date)](https://www.star-history.com/#Hunter-Leo/primer-studio&Date)

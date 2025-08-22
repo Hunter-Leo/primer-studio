@@ -1,0 +1,71 @@
+DUAL LICENSE
+
+This software is available under two different licenses:
+
+1. GNU General Public License v2.0 (GPL-2.0) for open source use
+2. Commercial License for proprietary/commercial use
+
+================================================================================
+OPEN SOURCE LICENSE (GPL-2.0)
+================================================================================
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+The full text of the GPL-2.0 license can be found at:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+================================================================================
+COMMERCIAL LICENSE
+================================================================================
+
+For commercial use, proprietary applications, or any use that is incompatible
+with the GPL-2.0 license terms, you must obtain a separate commercial license.
+
+Commercial licensing allows you to:
+- Use the software in proprietary/closed-source applications
+- Distribute the software without source code disclosure requirements
+- Modify the software without releasing modifications under GPL-2.0
+- Integrate the software into commercial products
+
+To obtain a commercial license, please contact:
+Leo Luo <leo.luo97@outlook.com>
+
+================================================================================
+DEPENDENCY NOTICE
+================================================================================
+
+This software depends on primer3-py, which is licensed under GPL-2.0.
+Any use of this software must comply with the primer3-py license terms.
+
+================================================================================
+COPYRIGHT NOTICE
+================================================================================
+
+Copyright (C) 2024 Leo Luo <leo.luo97@outlook.com>
+
+All rights reserved. This software and associated documentation files are
+protected by copyright law and international treaties.
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
