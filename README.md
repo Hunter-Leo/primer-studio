@@ -9,6 +9,10 @@
 
 A batch primer design tool for PCR applications that supports automatic primer design for multiple DNA sequences with configurable parameters and high-performance processing.
 
+## Demo
+
+![Primer Studio Demo](primer-demo.gif)
+
 ## Features
 
 - **Batch Processing**: Design primers for multiple sequences from FASTA files
