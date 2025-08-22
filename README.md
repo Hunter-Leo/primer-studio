@@ -17,20 +17,52 @@ A batch primer design tool for PCR applications that supports automatic primer d
 
 ## Installation
 
-### Using uv (Recommended)
+### Prerequisites
+
+Make sure you have [uv](https://docs.astral.sh/uv/getting-started/installation/) installed on your system.
+
+### Install from Source (Development)
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Hunter-Leo/primer-studio.git
 cd primer-studio
 uv sync
+uv build
+uv pip install -e .
 ```
 
-### Using pip
+### Install as Tool (Recommended for Users)
 
 ```bash
-git clone <repository-url>
+# Install directly from repository
+uv tool install git+https://github.com/Hunter-Leo/primer-studio.git
+
+# Upgrade to latest version
+uv tool upgrade primer-studio
+```
+
+### Alternative Installation Methods
+
+#### Using pip (Traditional)
+
+```bash
+git clone https://github.com/Hunter-Leo/primer-studio.git
 cd primer-studio
 pip install -e .
+```
+
+#### Using uvx (Run without Installation)
+
+```bash
+# Run directly without installing
+uvx --from primer-studio primer-designer --help
+```
+
+#### Direct Usage
+You can directly use the `primer-designer` command after installation with any of the above methods.
+
+```bash
+primer-designer --help
 ```
 
 ## Quick Start
